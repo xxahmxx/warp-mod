@@ -3,7 +3,7 @@
 	"package": "dev.xxahmxx.warp.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"WarpEntityDataSaverMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

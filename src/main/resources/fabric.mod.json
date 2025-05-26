@@ -3,17 +3,17 @@
 	"id": "warp",
 	"version": "${version}",
 	"name": "Warp",
-	"description": "Simple teleportation mod for client use only",
+	"description": "Simple teleportation mod",
 	"authors": [
 		"xxahmxx"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
+		"homepage": "https://github.com/xxahmxx/warp-mod",
 		"sources": "https://github.com/xxahmxx"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/warp/icon.png",
-	"environment": "*",
+	"environment": "client",
 	"entrypoints": {
 		"main": [
 			"dev.xxahmxx.warp.Warp"
@@ -28,7 +28,7 @@
 		"java": ">=21",
 		"fabric-api": "*"
 	},
-	"suggests": {
-		"another-mod": "*"
+	"conflicts": {
+		"essential_commands": "*"
 	}
 }
